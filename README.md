@@ -1,2 +1,2 @@
-# josh_blog
-Blog site
+# [name tbc]
+Josh's blog site
