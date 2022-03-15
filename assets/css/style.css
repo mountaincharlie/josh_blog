@@ -1,0 +1,88 @@
+/* ---------------------- IMPORTS */
+
+
+/* ---------------------- BASIC SETUP */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* font-family: ; */
+    /* font-size: ; */
+    height: 100vh;
+}
+
+
+/* ---------------------- BG COLOURS */
+
+.main--bg-blue-green{
+    background-color: #6397a8;
+}
+
+.footer--bg-blue-black{
+    background-color: #03262d;
+}
+
+
+/* ---------------------- HEADER */
+
+/* Photo by <a href="https://unsplash.com/@lois184?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Louis Droege</a> on <a href="https://unsplash.com/s/photos/scenary?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+header{
+    height: 50vh;
+
+    background-image: url("../images/home-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    color: #fff;
+
+    display:grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+header h1{
+    justify-self: center;
+    align-self: center;
+    
+}
+
+
+
+/* ---------------------- MAIN */
+
+main{
+    height: 45vh;
+    border: 3px solid #fff;
+    padding: 1em;
+
+}
+
+
+/* ---------------------- FOOTER */
+
+footer{
+    color: #fff;
+    height: 5vh;
+
+}
+
+
+/* ---------------------- NAV */
+
+nav{
+    justify-self: center;
+    padding:1em;
+}
+
+
+
+/* ---------------------- LISTS */
+
+.vertical-list li{
+    display: inline;
+    padding-right: 1em;
+}
