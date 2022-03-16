@@ -168,5 +168,20 @@ Page content:
 
 Features that could be added to expand and improve the website in the future.
 
+### Search feature 
+* enable users to search for a blog by part/all of the title/blog number/posted date
+* would have a search icon that when clicked on would expand a search bar and make suggestions based on what the user typed (from the possible options of blogs)
+* would probably use JS?
 
+### Login/Sign up
+* allows users to have a basic 'account' (not necesary to have profile image or data or anything)
+* saves their data to a database and validates it from there
+* allows them to write comments 
 
+### Writing comments on blogs
+* this feature is disabled unless the user is logged in
+* could have an email API to alert Josh each morning (emails sent by time) of how many comments were made and on which blogs
+
+### Email notifications
+* setup API to notify users when a new blog is posted
+* if this costs money, then encourage them to follow the Insta account instead
