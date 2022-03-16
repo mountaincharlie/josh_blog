@@ -33,7 +33,7 @@ body{
 header{
     height: 50vh;
 
-    background-image: url("../images/home-bg-img.jpg");
+    background-image: linear-gradient(rgba(241, 251, 255, 0.1),rgba(241, 251, 255, 0.1)), url("../images/home-bg-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
