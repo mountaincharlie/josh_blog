@@ -56,7 +56,6 @@ header h1{
 
 main{
     height: 45vh;
-    border: 3px solid #fff;
     padding: 1em;
 
 }
@@ -66,37 +65,57 @@ main{
 
 .blog-tiles-container{
     display: grid;
+    /* width */
     grid-template-columns: repeat(4, 1fr);
-    gap: 2em;
+    /* height */
+    height: inherit;
 
     padding-top: 1em;
+    gap: 1em;
 }
 
 /* using a reduced version of the blog image here */
 /* Photo by <a href="https://unsplash.com/@sincerelymedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sincerely Media</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
 .blog-tile{
+    position: relative;
+    /* align-self: center; */
 
     color: #03262d;
     height: 60%;
-    overflow: hidden;
+    overflow: clip;
 
-    background-image: linear-gradient(rgba(241, 251, 255, 0.2),rgba(241, 251, 255, 0.2)), url("../images/blog-img-reduced.jpg");
+    background-image: linear-gradient(rgba(241, 251, 255, 0.4),rgba(241, 251, 255, 0.4)), url("../images/blog-img-reduced.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
-    border: 2px solid #03262d;
     border-radius: 4px;
 }
 
 .blog-tile h3{
+    height:50%;
     text-align: center;
     padding: 4em;
 }
 
 .blog-tile p{
+    height: 50%;
+
     text-align: center;
     padding: 1em;
+
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.read-more{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    /* right: 50%; */
+
+    color: #fff;
+    background-color:rgba(3, 38, 45, 0.8);
 }
 
 
