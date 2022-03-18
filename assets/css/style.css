@@ -10,7 +10,8 @@
 }
 
 body{
-    font-family: Zilla Slab, sans-serif;
+    /* font-family: Zilla Slab, sans-serif; */
+    font-family: Fredoka, sans-serif;
     /* font-size: ; */
     min-height: 100vh;
 }
@@ -45,7 +46,8 @@ header{
 }
 
 header h1{
-    font-family: Fredoka, sans-serif;
+    /* font-family: Fredoka, sans-serif; */
+    font-family: Zilla Slab, sans-serif;
 
     justify-self: center;
     align-self: center;
@@ -94,7 +96,8 @@ main{
 }
 
 .blog-tile h3{
-    font-family: Fredoka, sans-serif;
+    font-family: Zilla Slab, sans-serif;
+    /* font-family: Fredoka, sans-serif; */
 
     height:50%;
     text-align: center;
@@ -127,7 +130,18 @@ main{
 footer{
     color: #fff;
     height: 5vh;
+    display:flex;
+}
 
+footer ul{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+footer li{
+    align-self: center;
+    padding:0;
 }
 
 
@@ -144,5 +158,5 @@ nav{
 
 .vertical-list li{
     display: inline;
-    padding-right: 1em;
+    padding: 1em;
 }
