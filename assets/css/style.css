@@ -152,11 +152,18 @@ nav{
     padding:1em;
 }
 
+nav a:hover{
+    color: #03262d;
+}
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
 /* ---------------------- LISTS */
 
 .vertical-list li{
     display: inline;
-    padding: 1em;
+    padding: 0 1em 0 1em;
 }
