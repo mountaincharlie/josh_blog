@@ -10,9 +10,9 @@
 }
 
 body{
-    /* font-family: ; */
+    font-family: Zilla Slab, sans-serif;
     /* font-size: ; */
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
@@ -45,9 +45,10 @@ header{
 }
 
 header h1{
+    font-family: Fredoka, sans-serif;
+
     justify-self: center;
     align-self: center;
-    
 }
 
 
@@ -93,6 +94,8 @@ main{
 }
 
 .blog-tile h3{
+    font-family: Fredoka, sans-serif;
+
     height:50%;
     text-align: center;
     padding: 4em;
